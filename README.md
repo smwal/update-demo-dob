@@ -19,9 +19,12 @@ app/
 
 ## How to Use
 
-1. **Clone the Repository (if you haven't already):**
-   ```bash
-   git clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
+1. Clone the Repository:
+   
+```bash
+git clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
+```
+
 Replace [your-username] and [repo-name] with your actual GitHub username and repository name.
 
 2. Navigate to the Directory:
