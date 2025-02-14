@@ -1,6 +1,6 @@
-# DOB Updater
+# Demo Student DOB Updater
 
-This Python script updates the Date of Birth (DOB) values in a CSV file based on the student's grade. It uses a grade-to-age mapping to calculate the expected birth year and adjusts the DOB accordingly.
+This Python script updates the Date of Birth (DOB) values in a Clever formatted CSV file based on the student's grade value. It uses a grade-to-age mapping based on the current year to calculate the expected birth year and adjusts the DOB accordingly.
 
 ## Prerequisites
 
