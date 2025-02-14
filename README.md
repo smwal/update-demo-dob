@@ -8,13 +8,14 @@ This Python script updates the Date of Birth (DOB) values in a Clever formatted 
 * pandas library (`pip install pandas`)
 
 ## File Structure
-
+```
 app/
 ├── input_folder/
 │   └── input.csv      # Your input CSV file
 ├── output_folder/
 │   └── output.csv     # Updated CSV file will be saved here
 └── update_dob.py    # The Python script
+```
 
 ## How to Use
 
