@@ -2,7 +2,7 @@ import pandas as pd
 import datetime
 import os
 
-def adjust_dob_by_grade(input_file, output_file):  # Modified to take input/output files
+def adjust_dob_by_grade(input_file, output_file):
     try:
         df = pd.read_csv(input_file)
     except FileNotFoundError:
@@ -11,7 +11,7 @@ def adjust_dob_by_grade(input_file, output_file):  # Modified to take input/outp
 
     current_year = datetime.datetime.now().year
 
-    # Grade to age mapping (dictionary) - Your existing mapping
+    # Grade to age mapping (dictionary)
     grade_map = {
         -2: 3,  # Toddler/Pre-K Special Ed
         -1: 4,  # Pre-K
@@ -44,7 +44,7 @@ def adjust_dob_by_grade(input_file, output_file):  # Modified to take input/outp
         "12": 17,
     }
 
-    def update_dob(row):  # Your existing DOB update function
+    def update_dob(row):
         grade = row['grade']
         dob = row['dob']
 
@@ -74,8 +74,6 @@ def adjust_dob_by_grade(input_file, output_file):  # Modified to take input/outp
     except Exception as e:
         print(f"Error writing to CSV: {e}")
 
-
-# --- Main part of the script (file path handling) ---
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     input_folder = os.path.join(script_dir, "input_folder")
