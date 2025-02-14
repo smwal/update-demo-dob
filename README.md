@@ -7,6 +7,8 @@ This Python script updates the Date of Birth (DOB) values in a Clever formatted 
 * Python 3.6 or higher
 * pandas library (`pip install pandas`)
 
+
+
 ## File Structure
 ```
 app/
@@ -17,6 +19,8 @@ app/
 └── update_dob.py    # The Python script
 ```
 
+
+
 ## How to Use
 
 1. Clone the Repository:
@@ -24,8 +28,6 @@ app/
 ```bash
 git clone [https://github.com/](https://github.com/)[your-username]/[repo-name].git
 ```
-
-Replace [your-username] and [repo-name] with your actual GitHub username and repository name.
 
 2. Navigate to the Directory:
 
@@ -41,7 +43,9 @@ mkdir input_folder output_folder
 
 4. Prepare Input Data:
 
-Place your CSV file containing the student data in the input_folder and name it input.csv. The CSV should have at least two columns: grade and dob. The dob column should be in MM-DD-YYYY format.
+Place your CSV file containing the student data in the input_folder and name it students.csv. For the context of this script, the CSV should have at least two columns: grade and dob. The dob column should be in MM-DD-YYYY format.
+
+
 
 ## Run the Script:
 
