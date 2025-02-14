@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
     os.makedirs(output_folder, exist_ok=True)  # Create output folder if it doesn't exist
 
-    input_file = os.path.join(input_folder, "input.csv")  # Path to your input file
+    input_file = os.path.join(input_folder, "students.csv")  # Path to your input file
     output_file = os.path.join(output_folder, "output.csv")  # Path to the output file
 
     adjust_dob_by_grade(input_file, output_file)  # Call the function with file paths
