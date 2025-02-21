@@ -53,13 +53,13 @@ Place your CSV file containing the student data in the input_folder and name it 
 python update_dob.py
 ```
 
-View the Output
+### View the Output
 The updated CSV file with corrected DOBs will be saved as output.csv in the output_folder.
 
-Grade Mapping
+### Grade Mapping
 The script uses a dictionary (grade_map) to map grades to expected ages.  You can modify this dictionary within the update_dob.py script to customize the age mapping for different grades.
 
-Error Handling
+### Error Handling
 The script includes basic error handling for:
 
 - Missing input CSV file.
